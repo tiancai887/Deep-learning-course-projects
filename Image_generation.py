@@ -86,7 +86,7 @@ def parse_args():
 
 
 
-def inference(args):
+def Image_generation(args):
 
     logging_dir = os.path.join(args.output_dir, args.logging_dir)
 
@@ -202,4 +202,4 @@ def inference(args):
 
 if __name__ == "__main__":
     args = parse_args()
-    inference(args)
+    Image_generation(args)
